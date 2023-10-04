@@ -1,0 +1,613 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --bg:white;
+}
+*{
+font-family: 'Roboto', sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+transition: .2s linear;
+
+}
+
+html{
+    font-size: 60%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 5rem;
+}
+body{
+    background: var(--bg);
+}
+
+section{
+    padding:2rem 2rem;
+    margin: 0 auto;
+      
+}
+
+/***************  header **********/
+.header .logo img{
+    height:6rem;
+} 
+.header .logo span {
+    font-size: 3rem;
+}
+
+.content .name h1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+
+/***************  Section 1 **********/
+.sec1{
+    margin:2rem;
+    background-color: rgb(250, 248, 245);
+    text-align: justify;
+}
+
+.sec1 .row .content h2{
+    font-size: 2rem;
+    padding:2rem 4rem 0 4rem;   
+}
+.sec1 .row .content p{
+    font-size: 2rem;
+    padding:4rem 4rem 1rem 4rem; 
+    color: rgb(248, 93, 93);
+    font-size: 2rem; 
+}
+.sec1 .row .content img{
+    height: 20rem;
+    margin-bottom: 10%; 
+    
+}  
+
+/***************  Section 2 **********/
+.content .user h1{
+    font-size: 4rem;
+    background-color: var(--bg);
+    padding: 2rem;
+}
+.sec2{
+    margin:2rem;
+    background-color: antiquewhite;
+    text-align: justify;
+   
+}
+.sec2 h1{
+    font-size: 4rem;
+    padding: 12rem 0 10rem 4rem;
+    
+}
+.sec2 p{
+    text-align: center;
+    padding: 4rem;
+    font-size: 2rem;
+    
+}
+/***************  Section 0 **********/
+.sec0 {
+    margin:2rem;
+    background-color:var(--bg); 
+    padding: 8rem 4rem; 
+   }
+    
+.sec0 .row .content p{
+    font-size: 2rem;
+    padding:4rem;
+    width: 50%;
+    float: left;
+    
+}
+
+.sec0 h1{
+    font-size: 3rem;
+    padding:2rem 4rem;
+    text-decoration:dashed;
+}
+.sec0 span{
+   text-align: space-between;
+   padding:50rem;
+}
+
+/***************  Section 3 **********/
+h1{
+    font-size: 3rem;
+    padding: 2rem;
+}
+.sec3 {
+    margin:2rem;
+    background-color:var(--bg); 
+    padding: 10rem 4rem; 
+   }
+    
+.sec3 .row .content p{
+    font-size: 2rem;
+    padding:4rem;
+    width: 50%;
+    float: left;
+    
+}
+
+.sec3 h1{
+    font-size: 3rem;
+    padding:2rem 4rem;
+    
+}
+.sec3 span{
+   text-align: space-between;
+   padding:50rem;
+}
+/***************  Section 4 **********/
+.sec4{
+    margin:2rem;
+    background-color: rgb(250, 248, 245);
+    text-align: justify;
+}
+.sec4 .row .content h1{
+    font-size: 4rem;
+    padding:2rem 4rem 0 4rem;
+}
+.sec4 .row .content p{
+    font-size: 2rem;
+    padding:2rem 4rem 0 4rem;
+    float: left;
+    width: 50%;    
+}
+.sec4 .row .content img{
+    height: 30rem;
+
+}
+/***************  Section 5 **********/
+.sec5 {
+    margin:2rem;
+    background-color: rgb(247, 246, 245);
+    text-align: justify;
+   
+   }
+.sec5 .row .content h1{
+    font-size: 4rem;
+    padding:2rem 4rem 0 4rem;
+}
+.sec5 .row .content p{
+    font-size: 2rem;
+    padding:2rem 4rem 0 4rem; 
+    float: left;
+    width: 50%;     
+}
+.sec5 .row .content img{
+    height: 30rem;
+    background: transparent;
+
+}
+
+/***************  Section 6 **********/
+.content .design h1{
+    font-size: 4rem;
+    background-color:var(--bg);
+    padding: 2rem;
+}
+.content .design h2{
+    font-size: 2rem;
+    background-color: rgb(207, 201, 201);
+    padding: 2rem;
+}
+.sec6 {
+    margin:2rem;
+    background-color: rgb(253, 246, 240);
+    text-align: justify;
+   
+   }
+.sec6 h1{
+    padding:0 4rem 0 4rem;
+    font-size: 4rem;
+    margin-top: 10rem;
+}
+.sec6 h2{
+    padding:4rem;
+    background-color: rgb(238, 223, 223);
+    font-size: 2rem;
+}
+.sec6 .row .content img{
+    height:30rem;
+    
+}
+.sec6 .row .content ul{
+    font-size: 2rem;
+    float: left;
+    width: 50%;
+}
+.sec6 .row .content li{
+    text-align: justify;
+    padding: 2rem;
+}
+
+/***************  Section 7 **********/
+.content .design h1{
+    font-size: 4rem;
+    background-color: var(--bg);
+    padding: 2rem;
+}
+.content .design h2{
+    font-size: 2rem;
+    background-color: rgb(207, 201, 201);
+    padding: 2rem;
+}
+.sec7 {
+    margin:2rem;
+    background-color: rgb(253, 246, 240);
+    text-align: justify;
+   
+   }
+.sec7 h1{
+    padding:0 4rem 0 4rem;
+    background-color: red;
+    font-size: 4rem;
+    margin-top: 10rem;
+}
+.sec7 h2{
+    padding:4rem;
+    background-color: rgb(238, 223, 223);
+    font-size: 2rem;
+}
+.sec7 .row .content img{
+    height:30rem;
+    
+}
+.sec7 .row .content ul{
+    font-size: 2rem;
+    float: left;
+    width: 50%;
+}
+.sec7 .row .content li{
+    text-align: justify;
+    padding: 2rem;
+}
+
+/***************  Section 8 **********/
+
+.content .design h2{
+    font-size: 2rem;
+    background-color: rgb(207, 201, 201);
+    padding: 2rem;
+}
+.sec8 {
+    margin:2rem;
+    background-color: rgb(253, 246, 240);
+    text-align: justify;
+   
+   }
+.sec8 h1{
+    padding:0 4rem 0 4rem;
+    background-color: red;
+    font-size: 4rem;
+    margin-top: 10rem;
+}
+.sec8 h2{
+    padding:4rem;
+    background-color: rgb(238, 223, 223);
+    font-size: 2rem;
+}
+.sec8 .row .content img{
+    height:30rem;
+    
+}
+.sec8 .row .content ul{
+    font-size: 2rem;
+    float: left;
+    width: 50%;
+}
+.sec8 .row .content li{
+    text-align: justify;
+    padding: 1rem;
+}
+
+/***************  Section 9 **********/
+
+.content .design h2{
+    font-size: 2rem;
+    background-color: rgb(207, 201, 201);
+    padding: 2rem;
+}
+.sec9 {
+    margin:2rem;
+    background-color: rgb(253, 246, 240);
+    text-align: justify;
+   
+   }
+.sec9 h1{
+    padding:0 4rem 0 4rem;
+    background-color: red;
+    font-size: 4rem;
+    margin-top: 10rem;
+}
+.sec9 h2{
+    padding:4rem;
+    background-color: rgb(238, 223, 223);
+    font-size: 2rem;
+}
+.sec9 .row .content img{
+    height:30rem;
+    
+}
+.sec9 .row .content ul{
+    font-size: 2rem;
+    float: left;
+    width: 50%;
+}
+.sec9 .row .content li{
+    text-align: justify;
+    padding: 2rem;
+}
+
+/***************  Section 10 **********/
+
+.content .design h2{
+    font-size: 2rem;
+    background-color: rgb(207, 201, 201);
+    padding: 2rem;
+}
+.sec10 {
+    margin:2rem;
+    background-color: rgb(253, 246, 240);
+    text-align: justify;
+   
+   }
+.sec10 h1{
+    padding:0 4rem 0 4rem;
+    background-color: red;
+    font-size: 4rem;
+    margin-top: 10rem;
+}
+.sec10 h2{
+    padding:4rem;
+    background-color: rgb(238, 223, 223);
+    font-size: 2rem;
+}
+.sec10 .row .content img{
+    height:30rem;
+    
+}
+.sec10 .row .content ul{
+    font-size: 2rem;
+    float: left;
+    width: 50%;
+}
+.sec10 .row .content li{
+    text-align: justify;
+    padding: 2rem;
+}
+
+/***************  Section 11 **********/
+.sec11{
+    margin:2rem;
+    background-color: var(--bg);
+    text-align: justify;
+    padding: 10rem 8rem;
+    
+}
+.sec11 .row .content p{
+    font-size: 2rem;
+    float: left;
+    width: 33.33%;
+   
+    text-align:center ;
+}
+
+/***************  Section 12 **********/
+
+
+.sec12 {
+    margin:2rem;
+    background-color:whitesmoke;
+    padding: 20rem 4rem; 
+   }
+    
+.sec12 .row .content h1{
+    font-size: 2rem;
+    border:none;
+    display: inline-block;
+}
+.sec12 .row .content p{
+    font-size: 2rem;
+    padding:2rem 4rem 4rem 2rem;
+    width: 40%;
+
+    float: left;   
+    
+}
+.sec12 h1{
+    font-size: 2rem;
+}
+.sec12 span{
+   text-align: space-between;
+   padding:40rem;
+}
+
+
+/* media queries  */
+
+/* xs */
+@media (max-width:475px){
+    
+    html{
+        font-size: 40%;
+        
+    }
+
+    section{
+        padding:1rem;
+        text-align: start;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height:100%;
+    }
+    img {
+        height:2rem;
+        width: 40rem;
+
+    }
+    .sec0 span{
+        padding:16rem;
+    }
+    .sec3 span{
+        padding:16rem;
+    }
+    .sec12 span{
+        padding:11rem;
+    }
+    .header .logo img {
+        height: 23rem;
+    }
+}
+
+
+  
+  /* sm */
+  @media (min-width: 640px) {
+    section {
+      max-width: 640px;
+      
+    }
+    .sec0 span{
+        padding:16rem;
+    }
+    .sec3 span{
+        padding:16rem;
+    }
+    .sec12 span{
+        padding:11rem;
+    }
+  }
+  
+  /* md */
+  @media (min-width: 768px) {
+    section  {
+      max-width: 768px;
+      
+    }
+    .sec0 span{
+        padding:20rem;
+    }
+    .sec3 span{
+        padding:25rem;
+    }
+    .sec12 span{
+        padding:18rem;
+    }
+  }
+  
+  /* lg */
+  @media (min-width: 1024px) {
+    section  {
+      max-width: 1024px;
+      
+        padding:1rem;
+        text-align: start;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height:100%;
+    }
+    .sec0 span{
+        padding:37rem;
+    }
+    .sec3 span{
+        padding:41rem;
+    }
+    .sec12 span{
+        padding:32rem;
+    }
+    .sec10 .row .content img {
+        height: 27rem;
+    }
+    .sec8 .row .content img {
+        height: 26rem;
+    }
+    .sec5 .row .content img {
+        height: 29rem;
+        background: transparent;
+    }
+    .sec1 .row .content img {
+        height: 51rem;
+        margin-bottom: 10%;
+    }
+  }
+  
+  /* xl */
+  @media (min-width: 1280px) {
+    section  {
+      max-width: 1280px;
+      padding:1rem;
+        text-align: start;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height:100%;
+    }
+  }
+  
+  /* 2xl */
+  @media (min-width: 1536px) {
+    section  {
+      max-width: 1536px;
+      padding:1rem;
+        text-align: start;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height:100%;
+    }
+    .sec1 .row .content img {
+        height: 66rem;
+        margin-bottom: 10%;
+    }
+    .sec0 span {
+        padding: 49rem;
+    }
+    .sec3 span {
+        padding: 52rem;
+    }
+    .sec12 span {
+        padding: 42rem;
+    }
+    .sec4 .row .content img {
+        height: 36rem;
+    }
+    .sec5 .row .content img {
+        height: 35rem;
+    }
+    .sec6 .row .content img {
+        height: 39rem;
+    }
+    .sec7 .row .content img {
+        height: 39rem;
+    }
+    .sec8 .row .content img {
+        height: 33rem;
+    }
+    .sec9 .row .content img {
+        height: 38rem;
+    }
+    .sec10 .row .content img {
+        height: 34rem;
+    }
+  }
+  
